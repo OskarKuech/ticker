@@ -1,12 +1,15 @@
 import React from "react";
 import '../../styles/style.css'
 
+import { useTeamColors } from "../../utils/TeamColorContext";
+
 interface ContainerGoalProps {
     headline: string;
     score: string;
     vorname: string;
     nachname: string;
     text: string;
+    team: "Home" | "Away" | "";
 }
 
 const replaceUmlauts = (name: string) => {
@@ -20,10 +23,13 @@ const replaceUmlauts = (name: string) => {
         .replace(/ß/g, 'ss');
 };
 
-const ContainerGoal: React.FC <ContainerGoalProps> = ({headline, score, vorname, nachname, text}) => {
+const ContainerGoal: React.FC <ContainerGoalProps> = ({headline, score, vorname, nachname, text, team}) => {
     const imageVorname = replaceUmlauts(vorname);
     const imageNachname = replaceUmlauts(nachname);
-    const imagePath = `/image/${imageVorname}_${imageNachname}.png`;
+    const { homeTeamName, awayTeamName } = useTeamColors();
+    const teamName = team === "Home" ? homeTeamName : awayTeamName;
+    const underscoredTeamName = teamName.replace(/\s+/g, '_');
+    const imagePath = `/image/${underscoredTeamName}/${imageVorname}_${imageNachname}.png`;
     
     return (
         <div className="container-goal">

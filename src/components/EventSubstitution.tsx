@@ -7,7 +7,7 @@ interface EventSubstitutionProps {
     player_out_vorname: string;
     player_out_nachname: string;
     minute: number;
-    team?: "Home" | "Away" | "";
+    team: "Home" | "Away" | "";
     extra_time?: number;
     text?: string;
 }

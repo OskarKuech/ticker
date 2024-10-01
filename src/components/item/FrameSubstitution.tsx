@@ -9,7 +9,7 @@ interface FrameSubstitutionProps {
     player_out_vorname: string;
     player_out_nachname: string;
     minute: number;
-    team?: "Home" | "Away" | "";
+    team: "Home" | "Away" | "";
     extra_time?: number;
     text?: string;
 }
@@ -40,6 +40,7 @@ const FrameSubstitution: React.FC<FrameSubstitutionProps> = ({
                 player_in_nachname={player_in_nachname}
                 player_out_vorname={player_out_vorname}
                 player_out_nachname={player_out_nachname}
+                team={team}
             />
         </div>
     )

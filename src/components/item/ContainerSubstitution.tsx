@@ -9,9 +9,11 @@ interface ContainerSubstitutionProps {
     player_out_nachname: string;
     headline: string;
     text?: string;
+    team: "Home" | "Away" | "";
 }
 
-const ContainerSubstitution: React.FC <ContainerSubstitutionProps> = ({player_in_vorname, player_in_nachname, player_out_vorname, player_out_nachname, headline, text}) => {
+const ContainerSubstitution: React.FC <ContainerSubstitutionProps> = ({player_in_vorname, player_in_nachname, player_out_vorname, player_out_nachname, headline, text, team}) => {
+
     return(
         <div className="container-substitution">
             <p className="text-event">{headline}</p>
@@ -22,8 +24,8 @@ const ContainerSubstitution: React.FC <ContainerSubstitutionProps> = ({player_in
                 gap: "32px",
                 alignSelf: "stretch"
             }}>
-                <PlayerSubstitution vorname={player_in_vorname} nachname={player_in_nachname} substitution="in"/>
-                <PlayerSubstitution vorname={player_out_vorname} nachname={player_out_nachname} substitution="out"/>
+                <PlayerSubstitution vorname={player_in_vorname} nachname={player_in_nachname} substitution="in" team={team}/>
+                <PlayerSubstitution vorname={player_out_vorname} nachname={player_out_nachname} substitution="out" team={team}/>
             </div>
         </div>
     )

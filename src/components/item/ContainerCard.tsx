@@ -1,11 +1,14 @@
 import React from "react";
 import '../../styles/style.css'
 
+import { useTeamColors } from "../../utils/TeamColorContext";
+
 interface ContainerCardProps {
     vorname: string;
     nachname: string;
     text?: string;
     card_type: string;
+    team: "Home" | "Away" | "";
 }
 
 const replaceUmlauts = (name: string) => {
@@ -26,10 +29,13 @@ const replaceCard = (text: string) => {
         .replace(/YellowCard/g, 'Gelbe ')
 };
 
-const ContainerCard: React.FC <ContainerCardProps> = ({vorname, nachname, text, card_type}) => {
+const ContainerCard: React.FC <ContainerCardProps> = ({vorname, nachname, text, card_type, team}) => {
     const imageVorname = replaceUmlauts(vorname);
     const imageNachname = replaceUmlauts(nachname);
-    const imagePath = `/image/${imageVorname}_${imageNachname}.png`;
+    const { homeTeamName, awayTeamName } = useTeamColors();
+    const teamName = team === "Home" ? homeTeamName : awayTeamName;
+    const underscoredTeamName = teamName.replace(/\s+/g, '_');
+    const imagePath = `/image/${underscoredTeamName}/${imageVorname}_${imageNachname}.png`;
 
     const replacedCardType = replaceCard(card_type);
 

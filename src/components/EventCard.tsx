@@ -8,6 +8,7 @@ interface EventCardProps {
     extra_time?: number;
     text?: string;
     card_type: string;
+    team: "Home" | "Away" | "";
 }
 
 const replaceCard = (text: string) => {
@@ -20,13 +21,13 @@ const replaceCard = (text: string) => {
         .replace(/Gelb/g, 'YellowCard')
 };
 
-const EventCard: React.FC <EventCardProps> = ({vorname, nachname, minute, extra_time, text, card_type}) => {
+const EventCard: React.FC <EventCardProps> = ({vorname, nachname, minute, extra_time, text, card_type, team}) => {
 
     const replacedCardType = replaceCard(card_type);
 
     return (
         <div>
-            <FrameCard minute={minute} extra_time={extra_time} text={text} vorname={vorname} nachname={nachname} card_type={replacedCardType} />
+            <FrameCard minute={minute} extra_time={extra_time} text={text} vorname={vorname} nachname={nachname} card_type={replacedCardType} team={team}/>
         </div>
     )
 }

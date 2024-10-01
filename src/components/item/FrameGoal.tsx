@@ -34,7 +34,7 @@ const FrameGoal: React.FC<FrameGoalProps> = ({
       backgroundColor: backgroundColor,
     }}>
       <Time minute={minute} extra_time={extra_time} icon="BallWhite" team="White"/>
-      <ContainerGoal headline={headline} score={score} vorname={vorname} nachname={nachname} text={text}/>
+      <ContainerGoal headline={headline} score={score} vorname={vorname} nachname={nachname} text={text} team={team}/>
     </div>
   )
 }

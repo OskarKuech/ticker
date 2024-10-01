@@ -1,10 +1,13 @@
 import React from "react";
 import '../../styles/style.css'
 
+import { useTeamColors } from "../../utils/TeamColorContext";
+
 interface PlayerSubstitutionProps {
     vorname: string;
     nachname: string;
     substitution?: "in" | "out";
+    team: "Home" | "Away" | "";
 }
 
 const replaceUmlauts = (name: string) => {
@@ -18,10 +21,14 @@ const replaceUmlauts = (name: string) => {
         .replace(/ß/g, 'ss');
 };
 
-const PlayerSubstitution: React.FC <PlayerSubstitutionProps> = ({vorname, nachname, substitution}) => {
+const PlayerSubstitution: React.FC <PlayerSubstitutionProps> = ({vorname, nachname, substitution, team}) => {
     const imageVorname = replaceUmlauts(vorname);
     const imageNachname = replaceUmlauts(nachname);
-    const imagePath = `/image/${imageVorname}_${imageNachname}.png`;
+    const { homeTeamName, awayTeamName } = useTeamColors();
+    const teamName = team === "Home" ? homeTeamName : awayTeamName;
+    const underscoredTeamName = teamName.replace(/\s+/g, '_');
+    const imagePath = `/image/${underscoredTeamName}/${imageVorname}_${imageNachname}.png`;
+
 
     const substitutionEvent = substitution === "in"
         ? "Arrow-right"
