@@ -1,0 +1,133 @@
+p {
+    color: var(--Black, #000);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.text-event {
+    font-weight: 700;
+    margin: 0;
+}
+
+.text-mini {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.container-goal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.headline-row-goal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.eventgoal-container {
+    color: white;
+}
+
+.eventgoal-container p {
+    color: inherit;
+}
+
+.event-goal {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.score-goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-goal {
+    display: flex;
+    padding-bottom: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+.player-name-goal {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.player-name-goal p {
+    font-size: 24px;
+}
+
+.player-nachname {
+    font-weight: 700;
+}
+
+.player-image {
+    display: flex;
+    width: 180px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.container-substitution {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.player-image-sub {
+    display: flex;
+    width: 120px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-image-sub img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}

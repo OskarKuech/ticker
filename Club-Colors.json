@@ -1,0 +1,32 @@
+{
+    "clubs": [
+        {
+            "name": "Union Berlin",
+            "colorCode": "#E30617"
+        },
+        {
+            "name": "Werder Bremen",
+            "colorCode": "#007642"
+        },
+        {
+            "name": "FC Bayern",
+            "colorCode": "#DC052D"
+        },
+        {
+            "name": "Borussia Dortmund",
+            "colorCode": "#FFD900"
+        },
+        {
+            "name": "Bayer Leverkusen",
+            "colorCode": "#FF0000"
+        },
+        {
+            "name": "St. Pauli",
+            "colorCode": "#604734"
+        },
+        {
+            "name": "Mainz 05",
+            "colorCode": "#C3141E"
+        }
+    ]
+}
