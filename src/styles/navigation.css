@@ -1,0 +1,51 @@
+.tab {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tabname {
+    display: flex;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 8px;
+}
+
+.tabname p {
+    font-size: 20px;
+    color: black;
+}
+
+/* UNDERLINE RECTANGLE */
+.tab-underline {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: -1px;
+    z-index: 1;
+}
+
+.navigation {
+    display: flex;
+    width: 1080px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navigation-line-fullwidth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    z-index: 0;
+}

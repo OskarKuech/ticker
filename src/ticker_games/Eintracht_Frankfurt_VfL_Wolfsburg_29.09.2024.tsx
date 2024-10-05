@@ -1,9 +1,10 @@
 import React from 'react';
-import Event from '../components/Event';
-import Comment from '../components/Comment';
-import EventGoal from '../components/EventGoal';
-import EventSubstitution from '../components/EventSubstitution';
-import EventCard from '../components/EventCard';
+import Navigation from '../components/Navigation';
+import Event from '../components_ticker/Event';
+import Comment from '../components_ticker/Comment';
+import EventGoal from '../components_ticker/EventGoal';
+import EventSubstitution from '../components_ticker/EventSubstitution';
+import EventCard from '../components_ticker/EventCard';
 import EventGameHeader from '../components/EventGameHeader';
 
 import teamColors from '../utils/teamColors.json';
@@ -30,6 +31,9 @@ const EintrachtFrankfurtVfLWolfsburg290924 = () => {
             gap: '32px'
         }}> 
             <EventGameHeader />
+
+            <Navigation />
+
             <Comment minute={90} extra_time={5} icon="whistle" headline='Abpfiff' text='Frankfurt sichert sich mit einem verdienten Sieg im Topspiel den zweiten Tabellenplatz. Nach Anyomis Tor 17 Sekunden nach Wiederanpfiff und ihrem Doppelpack in der 59. Minute war das Spiel für Frankfurt nie in Bedrängnis. Die Wolfsburgerinnen haben nach den Einwechslungen von Jonsdottir und Endemann zwar immer mehr ins Spiel gefunden, aber zu richtig guten Torchancen kamen sie nicht.' />
             <Event minute={90} extra_time={3} headline='Chance für Eintracht Frankfurt' text='Wamser hat die gesamte linke Seite vor sich Platz und läuft auf den Strafraum zu. Nach einem schlenzer nach rechts schießt sie und zwingt Frohms zur Parade über das Tor.' team='Home' />
             <EventCard minute={90} extra_time={1} vorname='Stina' nachname='Johannes' text='Gelbe Karte für Stina Johannes wegen Zeitspiels.' card_type='Gelb' team='Home'/>

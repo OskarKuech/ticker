@@ -28,6 +28,7 @@ const PlayerSubstitution: React.FC <PlayerSubstitutionProps> = ({vorname, nachna
     const teamName = team === "Home" ? homeTeamName : awayTeamName;
     const underscoredTeamName = teamName.replace(/\s+/g, '_');
     const imagePath = `/image/${underscoredTeamName}/${imageVorname}_${imageNachname}.png`;
+    const placeholderPath = '/image/placeholder.png';
 
 
     const substitutionEvent = substitution === "in"
@@ -52,7 +53,10 @@ const PlayerSubstitution: React.FC <PlayerSubstitutionProps> = ({vorname, nachna
                 gap: "16px"
             }}>
                 <div className="icon">    
-                    <img src={`/icon/${substitutionEvent}.svg`} alt=""/>
+                    <img 
+                    src={`/icon/${substitutionEvent}.svg`} alt=""
+                    onError={(e) => (e.currentTarget.src = placeholderPath)} 
+                    />
                 </div>
                 <div style={{
                     display: "flex",

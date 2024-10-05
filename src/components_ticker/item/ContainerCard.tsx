@@ -36,6 +36,7 @@ const ContainerCard: React.FC <ContainerCardProps> = ({vorname, nachname, text, 
     const teamName = team === "Home" ? homeTeamName : awayTeamName;
     const underscoredTeamName = teamName.replace(/\s+/g, '_');
     const imagePath = `/image/${underscoredTeamName}/${imageVorname}_${imageNachname}.png`;
+    const placeholderPath = '/image/placeholder.png';
 
     const replacedCardType = replaceCard(card_type);
 
@@ -50,7 +51,10 @@ const ContainerCard: React.FC <ContainerCardProps> = ({vorname, nachname, text, 
                 alignSelf: "stretch",
             }}>
                 <div className="player-image-sub">
-                    <img src={imagePath} alt={`${vorname} ${nachname}`} />
+                    <img 
+                    src={imagePath} alt={`${vorname} ${nachname}`} 
+                    onError={(e) => (e.currentTarget.src = placeholderPath)} 
+                    />
                 </div>
                 <p>{text}</p>
             </div>
