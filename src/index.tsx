@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import EintrachtFrankfurtVfLWolfsburg290924 from './ticker_games/Eintracht_Frankfurt_VfL_Wolfsburg_29.09.2024';
+import GameOverview from './GameOverview';
+// import EintrachtFrankfurtVfLWolfsburg290924 from './ticker_games/Eintracht_Frankfurt_VfL_Wolfsburg_29.09.2024';
+// import TestSpielUnionWerder from './ticker_games/TestSpielUnionWerder';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,7 +13,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <EintrachtFrankfurtVfLWolfsburg290924 />
+    {/* <TestSpielUnionWerder /> */}
+    {/* <EintrachtFrankfurtVfLWolfsburg290924 /> */}
+    <GameOverview />
+    
   </React.StrictMode>
 );
 

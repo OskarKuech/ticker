@@ -1,0 +1,96 @@
+.container-coach {
+    display: flex;
+    width: 1080px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.name-coach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.divider-coach {
+    width: 2px;
+    min-height: 40px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: #CCC;
+}
+
+.referee {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.coaches {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.squad {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.container-squad {
+    display: flex;
+    width: 1080px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-team {
+    display: flex;
+    width: 500px;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.divider-squad {
+    width: 2px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: #CCC;
+}
+
+.player {
+    display: flex;
+    width: 484px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.player-name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+}
+
+.player-divider {
+    width: 484px;
+    height: 1px;
+    background: #CCC;
+}
