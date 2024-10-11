@@ -18,7 +18,8 @@ const TestSpielUnionWerder = () => {
     const homeTeam = 'Union Berlin';
     const awayTeam = 'Werder Bremen';
     const stadium = 'Stadion an der Alten Försterei';
-    const league = 'Testspieltag';
+    const league = 'Testspiel';
+    const matchday = '1. Spieltag';
     const result = '2:2'
   
     const homeTeamColor = teamColors[homeTeam];
@@ -73,7 +74,7 @@ const TestSpielUnionWerder = () => {
     ];
 
     return (
-      <TeamColorProvider homeTeamColor={homeTeamColor} awayTeamColor={awayTeamColor} homeTeamName={homeTeam} awayTeamName={awayTeam} stadium={stadium} league={league} result={result}>
+      <TeamColorProvider homeTeamColor={homeTeamColor} awayTeamColor={awayTeamColor} homeTeamName={homeTeam} awayTeamName={awayTeam} stadium={stadium} matchday={matchday} league={league} result={result}>
           <div className='container-web'> 
               <EventGameHeader />
               <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />

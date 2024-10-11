@@ -1,15 +1,25 @@
 import React from "react";
 import '../../styles/game.css'
 
-const Competition = () => {
+interface CompetitionProps {
+    competition: string;
+    matchday: string;
+    date: string;
+    time: string;
+}
+
+const Competition: React.FC <CompetitionProps> = ({competition, matchday, date, time}) => {
+    const underscoredCompetition = competition.replace(/\s+/g, '_');
+    const imagePath = `/image/competition_logo/${underscoredCompetition}.svg`;
+
     return (
         <div className="competition">
             <div className="logo-frame">
-                <img src="/image/competition_logo/Bundesliga.svg" alt="" />
+                <img src={imagePath} alt="" />
             </div>
             <div className="game-date">
-                <p>1. Spieltag</p>
-                <p>Sa., 03.05.2025, 15:30</p>
+                <p>{matchday}</p>
+                <p>{date}, {time}</p>
             </div>
         </div>
     )

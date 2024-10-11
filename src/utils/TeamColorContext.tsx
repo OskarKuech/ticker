@@ -7,6 +7,7 @@ interface TeamColorContextProps {
   awayTeamName: string;
   stadium: string;
   league: string;
+  matchday: string;
   result: string;
 }
 
@@ -25,7 +26,8 @@ export const TeamColorProvider: React.FC<{ homeTeamColor: string;
   homeTeamName: string; 
   awayTeamName: string; 
   stadium: string; 
-  league: string; 
+  league: string;
+  matchday: string;
   result: string; 
   children: React.ReactNode }> = ({ 
     homeTeamColor, 
@@ -33,7 +35,8 @@ export const TeamColorProvider: React.FC<{ homeTeamColor: string;
     homeTeamName, 
     awayTeamName, 
     stadium, 
-    league, 
+    league,
+    matchday,
     result, 
     children }) => {
   return (
@@ -42,7 +45,8 @@ export const TeamColorProvider: React.FC<{ homeTeamColor: string;
       awayTeamColor, 
       homeTeamName, 
       awayTeamName, 
-      stadium, 
+      stadium,
+      matchday,
       league, 
       result }}>
       {children}

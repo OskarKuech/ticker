@@ -21,8 +21,10 @@ const EintrachtFrankfurtVfLWolfsburg290924 = () => {
     const homeTeam = 'Eintracht Frankfurt';
     const awayTeam = 'VfL Wolfsburg';
     const stadium = 'Stadion am Brentanobad';
-    const league = 'Frauen Bundesliga, 4. Spieltag';
-    const result = '3:0'
+    const league = 'Frauen Bundesliga'; 
+    // Frauen Bundesliga, 4. Spieltag
+    const matchday = '4. Spieltag';
+    const result = '3:0';
   
     const homeTeamColor = teamColors[homeTeam];
     const awayTeamColor = teamColors[awayTeam];
@@ -81,7 +83,7 @@ const EintrachtFrankfurtVfLWolfsburg290924 = () => {
     ];
 
   return (
-    <TeamColorProvider homeTeamColor={homeTeamColor} awayTeamColor={awayTeamColor} homeTeamName={homeTeam} awayTeamName={awayTeam} stadium={stadium} league={league} result={result}>
+    <TeamColorProvider homeTeamColor={homeTeamColor} awayTeamColor={awayTeamColor} homeTeamName={homeTeam} awayTeamName={awayTeam} stadium={stadium} matchday={matchday} league={league} result={result}>
         <div className='container-web'> 
             <EventGameHeader />
 

@@ -4,9 +4,10 @@ import '../../styles/game.css'
 interface MatchupProps {
     homeTeam: string;
     awayTeam: string;
+    score: string;
 }
 
-const Matchup: React.FC <MatchupProps> = ({homeTeam, awayTeam}) => {
+const Matchup: React.FC <MatchupProps> = ({homeTeam, awayTeam, score}) => {
     const underscoredTeamHome = homeTeam.replace(/\s+/g, '_');
     const imagePathHome = `/image/club_logo/${underscoredTeamHome}.svg`;
     const underscoredTeamAway = awayTeam.replace(/\s+/g, '_');
@@ -21,7 +22,7 @@ const Matchup: React.FC <MatchupProps> = ({homeTeam, awayTeam}) => {
                 </div>
             </div>
 
-            <p>-:-</p>
+            <p style={{fontWeight: "700"}}>{score}</p>
 
             <div className="game-club">
                 <div className="logo-frame">

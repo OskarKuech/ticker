@@ -4,15 +4,16 @@ import '../../styles/style.css'
 interface ContainerGameDetailsProps {
     stadium: string;
     league: string;
+    matchday: string;
     result: string;
 }
 
-const ContainerGameDetails: React.FC <ContainerGameDetailsProps> = ({stadium, league, result}) => {
+const ContainerGameDetails: React.FC <ContainerGameDetailsProps> = ({stadium, league, matchday, result}) => {
     return (
         <div className="container-game-details">
             <p style={{
                 fontSize: "16px"
-            }}>{league}</p> {/* League */}
+            }}>{league}, {matchday}</p> {/* League */}
 
             <p style={{
                 fontSize: "48px",
