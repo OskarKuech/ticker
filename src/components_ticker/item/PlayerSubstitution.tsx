@@ -45,7 +45,9 @@ const PlayerSubstitution: React.FC <PlayerSubstitutionProps> = ({vorname, nachna
             alignSelf: "stretch",
         }}>
             <div className="player-image-sub">
-                <img src={imagePath} alt={`${vorname} ${nachname}`} />
+                <img src={imagePath} alt={`${vorname} ${nachname}`} 
+                onError={(e) => (e.currentTarget.src = placeholderPath)} 
+                />
             </div>
             <div style={{
                 display: "flex",

@@ -14,7 +14,7 @@ const Competition: React.FC <CompetitionProps> = ({competition, matchday, date, 
 
     return (
         <div className="competition">
-            <div className="logo-frame">
+            <div className="club-logo-frame">
                 <img src={imagePath} alt="" />
             </div>
             <div className="game-date">
