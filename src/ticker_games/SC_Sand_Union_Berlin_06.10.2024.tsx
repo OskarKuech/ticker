@@ -21,7 +21,7 @@ const SCSandUnionBerlin061024 = () => {
     const awayTeam = 'Union Berlin';
     const stadium = 'Adams Arena';
     const league = '2. Frauen Bundesliga';
-    const matchday = '06. Spieltag';
+    const matchday = '6. Spieltag';
     const result = '1:2'
   
     const homeTeamColor = teamColors[homeTeam];
