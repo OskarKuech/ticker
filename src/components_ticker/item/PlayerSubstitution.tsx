@@ -57,7 +57,6 @@ const PlayerSubstitution: React.FC <PlayerSubstitutionProps> = ({vorname, nachna
                 <div className="icon">    
                     <img 
                     src={`/icon/${substitutionEvent}.svg`} alt=""
-                    onError={(e) => (e.currentTarget.src = placeholderPath)} 
                     />
                 </div>
                 <div style={{
