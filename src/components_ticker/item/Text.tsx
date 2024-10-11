@@ -8,7 +8,7 @@ interface TextProps {
 
 const Text: React.FC <TextProps> = ({text, headline}) => {
     return (
-        <div style={{display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "16px"}}>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "flex-start", gap: headline ? "16px" : "0px"}}>
                 <p className="text-event">{headline}</p>
                 <p>{text}</p>
         </div>
