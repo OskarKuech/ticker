@@ -16,7 +16,7 @@ interface SubstituesProps {
 const Substitutes: React.FC<SubstituesProps> = ({ homeTeam, awayTeam }) => {
   return (
     <div className="squad">
-      <p style={{ fontWeight: "700", textTransform: "uppercase" }}>Startelf</p>
+      <p style={{ fontWeight: "700", textTransform: "uppercase" }}>Auswechselspieler</p>
       <ContainerSquad homeTeam={homeTeam} awayTeam={awayTeam} />
     </div>
   );
