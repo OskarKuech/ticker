@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import '../styles/style.css'
 import Navigation from '../components/Navigation';
 import Event from '../components_ticker/Event';
@@ -81,6 +81,8 @@ const EintrachtFrankfurtVfLWolfsburg290924 = () => {
       { nummer: 24, vorname: "Joelle", nachname: "Wedemeyer"},
       { nummer: 25, vorname: "Vivien", nachname: "Endemann"},
     ];
+
+    useEffect(() => { document.title = `Ticker ${homeTeam} - ${awayTeam}`; });
 
   return (
     <TeamColorProvider homeTeamColor={homeTeamColor} awayTeamColor={awayTeamColor} homeTeamName={homeTeam} awayTeamName={awayTeam} stadium={stadium} matchday={matchday} league={league} result={result}>

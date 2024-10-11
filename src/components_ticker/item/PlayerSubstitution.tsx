@@ -22,8 +22,8 @@ const replaceUmlauts = (name: string) => {
 };
 
 const PlayerSubstitution: React.FC <PlayerSubstitutionProps> = ({vorname, nachname, substitution, team}) => {
-    const imageVorname = replaceUmlauts(vorname);
-    const imageNachname = replaceUmlauts(nachname);
+    const imageVorname = replaceUmlauts(vorname).replace(/\s+/g, '_');
+    const imageNachname = replaceUmlauts(nachname).replace(/\s+/g, '_');
     const { homeTeamName, awayTeamName } = useTeamColors();
     const teamName = team === "Home" ? homeTeamName : awayTeamName;
     const underscoredTeamName = teamName.replace(/\s+/g, '_');

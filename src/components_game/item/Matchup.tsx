@@ -17,7 +17,7 @@ const Matchup: React.FC <MatchupProps> = ({homeTeam, awayTeam, score}) => {
         <div className="game-matchup">
             <div className="game-club" style={{justifyContent: "flex-end"}}>
                 <p>{homeTeam}</p>
-                <div className="logo-frame">
+                <div className="club-logo-frame">
                 <img src={imagePathHome} alt={`${homeTeam}`} />
                 </div>
             </div>
@@ -25,7 +25,7 @@ const Matchup: React.FC <MatchupProps> = ({homeTeam, awayTeam, score}) => {
             <p style={{fontWeight: "700"}}>{score}</p>
 
             <div className="game-club">
-                <div className="logo-frame">
+                <div className="club-logo-frame">
                 <img src={imagePathAway} alt={`${awayTeam}`} />
                 </div>
                 <p>{awayTeam}</p>

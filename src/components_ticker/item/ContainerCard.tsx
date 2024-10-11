@@ -30,8 +30,8 @@ const replaceCard = (text: string) => {
 };
 
 const ContainerCard: React.FC <ContainerCardProps> = ({vorname, nachname, text, card_type, team}) => {
-    const imageVorname = replaceUmlauts(vorname);
-    const imageNachname = replaceUmlauts(nachname);
+    const imageVorname = replaceUmlauts(vorname).replace(/\s+/g, '_');
+    const imageNachname = replaceUmlauts(nachname).replace(/\s+/g, '_');
     const { homeTeamName, awayTeamName } = useTeamColors();
     const teamName = team === "Home" ? homeTeamName : awayTeamName;
     const underscoredTeamName = teamName.replace(/\s+/g, '_');

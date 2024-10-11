@@ -39,7 +39,7 @@ a:link {
     text-align: center;
 }
 
-.logo-frame {
+.club-logo-frame {
     display: flex;
     width: 40px;
     height: 40px;
@@ -48,7 +48,7 @@ a:link {
     align-items: center;
 }
 
-.logo-frame img {
+.club-logo-frame img {
     width: 40px;
     height: 40px;
     object-fit: contain;   
