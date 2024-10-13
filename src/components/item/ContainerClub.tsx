@@ -8,7 +8,7 @@ interface ContainerClubProps {
 const ContainerClub: React.FC <ContainerClubProps> = ({teamName}) => {
     const underscoredTeamName = teamName.replace(/\s+/g, '_');
     const imagePath = `/image/club_logo/${underscoredTeamName}.svg`;
-    const placeholderPath = '/image/placeholder.png';
+    const placeholderPath = '/image/placeholder_club.png';
 
     return (
         <div className="container-club">
