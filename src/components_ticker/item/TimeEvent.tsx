@@ -20,7 +20,10 @@ const TimeEvent: React.FC<TimeEventProps> = ({ minute, icon, team, extra_time = 
     return (
         <div style={{ display: "flex", alignItems: "flex-start", gap: "16px" }}>
             <div className="icon">
-                <img src={`/icon/${icon}.svg`} alt="" />
+                {icon ? (
+                    <img src={`/icon/${icon}.svg`} alt="" />
+                ) : null
+                }
             </div>
             <div style={{ display: "flex", width: "80px", justifyContent: "flex-end" }}>
                 {minute !== undefined && (
