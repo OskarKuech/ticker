@@ -174,6 +174,9 @@ const VfLWolfsburgFCBayern121024 = () => {
                       <Comment minute={7} text="Auf der Gegenseite versucht Bühl es mit einer Flanke auf Schüller. Frohms passt auf und fängt den Ball vor der Angreiferin ab." />
                       <EventGoal minute={5} team="Home" vorname="Vivien" nachname="Endemann" score="1:0" text="Wolfsburg mit einem Blitzstart ins Topspiel! Damnjanovic mit einem ganz unglücklichen Fehlpass zur eigenen Abwehr. Endemann fängt den Ball ab, zieht an Sembrant vorbei ins Zentrum und schließt sehenswert in den rechten Winkel ab. Maria Grohs ohne jegliche Abwehrchance." />
                       <Comment minute={1} icon="whistle" headline='Anpfiff' text="Der VfL eröffnet das Topspiel der Frauen Bundesliga von rechts nach links."/>
+                      
+                      <Event headline="" text="Die Bayern, auf der anderen Seite, kommen mit nach dem 5:2 gegen Mitfavorit Arsenal gestärkt zum Klassiker. Trotzdem gibt Alexander Straus Simon und Lohmann eine Verschnaufpause. Für sie beginnen Sembrant und Schüller von Anfang an. " />
+                      <Event headline="" text="Wolfsburgs Trainer Tommy Stroot wechselt im Vergleich zur knappen Niederlage in Rom in der Champions League dreimal: Hendrich, Endemann und Brand starten für Beerensteyn, Jonsdottir und Blomqvist, die alle auf der Bank Platz nehmen." />
                   </>
               )}
           </div>

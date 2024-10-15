@@ -11,7 +11,7 @@ interface EventProps {
 
 const Event: React.FC<EventProps> = ({minute, headline, text, team, extra_time}) => {
     return (
-        <div style={{background: "#F8F8F8"}}>
+        <div style={{background: "#F8F8F8", borderRadius: '4px',}}>
             <FrameEvent minute={minute} extra_time={extra_time} headline={headline} text={text} team={team} />
         </div>
     )
