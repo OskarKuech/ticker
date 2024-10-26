@@ -12,7 +12,8 @@ const ContainerGameDetails: React.FC <ContainerGameDetailsProps> = ({stadium, le
     return (
         <div className="container-game-details">
             <p style={{
-                fontSize: "16px"
+                fontSize: "16px",
+                textAlign: "center"
             }}>{league}, {matchday}</p> {/* League */}
 
             <p style={{
