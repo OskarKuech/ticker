@@ -5,6 +5,8 @@ import Game from "./components_game/Game";
 const GameOverview = () => {
     return (
         <div className="container-web">
+            <Game homeTeam="England" awayTeam="Deutschland" score="3:4"
+            competition="International" matchday="5. Spieltag" date="25.10.2024" time="20:30" />
             <Game homeTeam="VfL Wolfsburg" awayTeam="FC Bayern" score="2:0"
             competition="Frauen Bundesliga" matchday="7. Spieltag" date="12.10.2024" time="17:45" />
             <Game homeTeam="FC Bayern" awayTeam="Arsenal" score="5:2"
@@ -30,6 +32,7 @@ const GameOverview = () => {
 // Frauen 2. Bundesliga
 // Frauen DFB-Pokal
 // Frauen Champions League
+// International
 
 
 export default GameOverview;

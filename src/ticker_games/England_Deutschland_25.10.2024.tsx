@@ -22,7 +22,7 @@ const EnglandDeutschland251024 = () => {
     const stadium = 'Wembley';
     const league = 'Frauen-Nationalteam Freundschaftsspiel';
     const matchday = '5. Spieltag';
-    const result = '-:-'
+    const result = '3:4'
   
     const homeTeamColor = teamColors[homeTeam];
     const awayTeamColor = teamColors[awayTeam];
@@ -98,7 +98,7 @@ const EnglandDeutschland251024 = () => {
                       <Starting homeTeam={homeTeamPlayers} awayTeam={awayTeamPlayers} />
                       <Substitutes homeTeam={homeTeamSubstitutionPlayers} awayTeam={awayTeamSubstitutionPlayers} />
                       <Coaches nameCoachHome="Sarina Wiegman" nameCoachAway="Christian Wück" />
-                      <Referee nameReferee="Marta Huerta de Aza" />
+                      <Referee nameReferee="Marta Huerta de Aza (ESP)" />
                   </>
               )}
 
