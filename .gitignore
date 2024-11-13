@@ -25,3 +25,4 @@ yarn-error.log*
 #Template file
 src/ticker_games/TEMPLATE.tsx
 src/ticker_games/Testspiel.tsx
+src/ticker_games/Deutschland_Australien_28.10.2024.tsx

@@ -104,33 +104,33 @@ const EnglandDeutschland251024 = () => {
 
               {activeTab === "Ticker" && (
                   <>
-                  <Comment minute={90} extra_time={3} icon="whistle" headline="Abpfiff" text="Mit 3 Elfmetern,  3 Abseits- und 7 regulären Toren endet ein hoch unterhaltsames Fußballspiel in Wembley. Besonders in der fast durchweg offensiven ersten Hälfte haben beide Teams viele gute Chancen herausgespielt. Die zweite Hälfte hingegen verlief lange Zeit deutlich ruhiger und kontrollierter. Bronze verkürzte zwar nochmal, nach einem Fehler von Berger, auf ein Tor, wirklich gefährdet wurde der souveräne Sieg der Deutschen dadurch aber nicht mehr." />
-                  <Comment minute={90} extra_time={4} text="Wie viel Kraft die erste Halbzeit gekostet hat, ist den Akteuren mittlerweile deutlich anzusehen." />
-                  <EventCard minute={90} extra_time={1} team="Away" card_type="Gelb" vorname="Sophia" nachname="Kleinherne" text="Kleinherne hält Naz taktisch am Trikot." />
-                  <Comment minute={90} extra_time={1} text="Um Sechs Minuten wird der Klassiker verlängert." />
-                  <Comment minute={88} text="Von rechts versucht es Naz mit einem frechen Schlenzer, hinter dem zu wenig Druck steckt." />
-                  <Event minute={86} team="Away" headline="Chance für Deutschland" text="Die gerade eingewechselte Endemann bringt von rechts eine kurze Flanke auf Cerci in den Fünfmeterraum. Hampton kommt raus und bedrängt die Stürmerin so, dass sie nicht mehr als eine Ecke bekommt." />
-                  <EventSubstitution minute={82} team="Home" player_in_vorname="Maya" player_in_nachname="Le Tissier" player_out_vorname="Lucy" player_out_nachname="Bronze" />
-                  <EventSubstitution minute={82} team="Home" player_in_vorname="Jessica" player_in_nachname="Naz" player_out_vorname="Beth" player_out_nachname="Mead" />
-                  <EventSubstitution minute={81} team="Away" player_in_vorname="Vivien" player_in_nachname="Endemann" player_out_vorname="Klara" player_out_nachname="Bühl" />
-                  <EventGoal minute={81} team="Home" score="3:4" vorname="Lucy" nachname="Bronze" text="Und wieder ist der Ball im Tor - diesmal zählt er auch. Berger rutscht eine harmlose Freistoßflanke durch die Hände, genau vor die Füße von Lucy Bronze, die aus kurzer Distanz kein Problem hat den erneuten Anschlusstreffer zu machen." />
-                  <Comment minute={79} text="Das Spiel muss unterbrochen werden, weil Senß im Mittelfeld umgeknickt ist und behandelt werden muss. Sie kann aber weiterspielen." />
-                  <Event minute={77} headline="Abseitstor für England" text="Aus dem Nichts ist der Ball im deutschen Tornetz. Hemp stand vor ihrem Abschluss aber zweifellos im Abseits." />
-                  <Comment minute={76} text="Deutschland wiederum fährt trotz der erneuten zwei Tore Führung immer weiter hoch und läuft mit drei Spielerinnen hoch an." />
-                  <Comment minute={74} text="Offensiv kommt von England in der zweiten Hälfte gar nichts. " />
-                  <EventSubstitution minute={73} team="Home" player_in_vorname="Chloe" player_in_nachname="Kelly" player_out_vorname="Alessia" player_out_nachname="Russo" />
-                  <EventGoal minute={72} team="Away" score="2:4" vorname="Sara" nachname="Däbritz" text="Däbritz übernimmt die Aufgabe und verwandelt gezielt und mit viel Kraft halbhoch rechts ins Eck." />
-                  <Event minute={71} headline="Elfmeter für Deutschland" text="Der zweite Elfmeter für Deutschland. Bühl bringt einen Freistoß ungefährlich hinein, aber Hampton kann den Ball nicht festhalten. Im Nachhinein holt Wolter aus, wird aber im Schuss von Russo am Fuß getroffen." />
-                  <EventSubstitution minute={67} team="Away" player_in_vorname="Sophia" player_in_nachname="Kleinherne" player_out_vorname="Sara" player_out_nachname="Doorsoun" />
-                  <Event minute={64} team="Away" headline="Chance für Deutschland" text="Cerci fängt einen Ball ab und überlässt dann Dallmann. Rauch bekommt den Ball zentral aufgelegt und zwingt Hampton aus ca. 15 Metern zu einem ganz hohen Sprung." />
-                  <EventSubstitution minute={62} team="Away" player_in_vorname="Sara" player_in_nachname="Däbritz" player_out_vorname="Sjoeke" player_out_nachname="Nüsken" />
-                  <EventSubstitution minute={62} team="Away" player_in_vorname="Pia-Sophie" player_in_nachname="Wolter" player_out_vorname="Giulia" player_out_nachname="Gwinn" />
-                  <EventSubstitution minute={61} team="Home" player_in_vorname="Alex" player_in_nachname="Greenwood" player_out_vorname="Leah" player_out_nachname="Williamson" />
-                  <Event minute={59} team="Away" headline="Chance für Deutschland" text="Jule Brand mit einem unglaublichen Solo: Erst läuft sie zwischen Bright und Walsh durch und zieht dann nach innen an Bronze vorbei. Im Strafraum entscheidet sie sich dagegen, die links frei mitgelaufene Cerci mitzunehmen und schießt zu zentral auf Hampton." />
-                  <Comment minute={55} text="Gwinn bekommt rechts mal mehr Platz und bringt den Ball hoch hinein. Dort versuchen sowohl Cerci als auch Dallmann ihr Glück - ohne Erfolg." />
-                  <Comment minute={53} text="Das Spiel verläuft bisher ruhiger und kontrollierter als noch in der ersten Halbzeit." />
-                  <Event minute={50} headline="Abseitstor für Deutschland" text="Dallmann steckt link auf Cerci durch, die im Abseits steht. Brand trifft nach Zuspiel von Dallmann, die den Ball von Cerci zurückbekommt zwar, die Fahne geht aber direkt hoch." />
-                  <Comment minute={48} text="Hemp setzt sich gegen Gwinn durch und legt in den Rückraum auf Stanway, der der Ball verspringt." />
+                      <Comment minute={90} extra_time={3} icon="whistle" headline="Abpfiff" text="Mit 3 Elfmetern,  3 Abseits- und 7 regulären Toren endet ein hoch unterhaltsames Fußballspiel in Wembley. Besonders in der fast durchweg offensiven ersten Hälfte haben beide Teams viele gute Chancen herausgespielt. Die zweite Hälfte hingegen verlief lange Zeit deutlich ruhiger und kontrollierter. Bronze verkürzte zwar nochmal, nach einem Fehler von Berger, auf ein Tor, wirklich gefährdet wurde der souveräne Sieg der Deutschen dadurch aber nicht mehr." />
+                      <Comment minute={90} extra_time={4} text="Wie viel Kraft die erste Halbzeit gekostet hat, ist den Akteuren mittlerweile deutlich anzusehen." />
+                      <EventCard minute={90} extra_time={1} team="Away" card_type="Gelb" vorname="Sophia" nachname="Kleinherne" text="Kleinherne hält Naz taktisch am Trikot." />
+                      <Comment minute={90} extra_time={1} text="Um Sechs Minuten wird der Klassiker verlängert." />
+                      <Comment minute={88} text="Von rechts versucht es Naz mit einem frechen Schlenzer, hinter dem zu wenig Druck steckt." />
+                      <Event minute={86} team="Away" headline="Chance für Deutschland" text="Die gerade eingewechselte Endemann bringt von rechts eine kurze Flanke auf Cerci in den Fünfmeterraum. Hampton kommt raus und bedrängt die Stürmerin so, dass sie nicht mehr als eine Ecke bekommt." />
+                      <EventSubstitution minute={82} team="Home" player_in_vorname="Maya" player_in_nachname="Le Tissier" player_out_vorname="Lucy" player_out_nachname="Bronze" />
+                      <EventSubstitution minute={82} team="Home" player_in_vorname="Jessica" player_in_nachname="Naz" player_out_vorname="Beth" player_out_nachname="Mead" />
+                      <EventSubstitution minute={81} team="Away" player_in_vorname="Vivien" player_in_nachname="Endemann" player_out_vorname="Klara" player_out_nachname="Bühl" />
+                      <EventGoal minute={81} team="Home" score="3:4" vorname="Lucy" nachname="Bronze" text="Und wieder ist der Ball im Tor - diesmal zählt er auch. Berger rutscht eine harmlose Freistoßflanke durch die Hände, genau vor die Füße von Lucy Bronze, die aus kurzer Distanz kein Problem hat den erneuten Anschlusstreffer zu machen." />
+                      <Comment minute={79} text="Das Spiel muss unterbrochen werden, weil Senß im Mittelfeld umgeknickt ist und behandelt werden muss. Sie kann aber weiterspielen." />
+                      <Event minute={77} headline="Abseitstor für England" text="Aus dem Nichts ist der Ball im deutschen Tornetz. Hemp stand vor ihrem Abschluss aber zweifellos im Abseits." />
+                      <Comment minute={76} text="Deutschland wiederum fährt trotz der erneuten zwei Tore Führung immer weiter hoch und läuft mit drei Spielerinnen hoch an." />
+                      <Comment minute={74} text="Offensiv kommt von England in der zweiten Hälfte gar nichts. " />
+                      <EventSubstitution minute={73} team="Home" player_in_vorname="Chloe" player_in_nachname="Kelly" player_out_vorname="Alessia" player_out_nachname="Russo" />
+                      <EventGoal minute={72} team="Away" score="2:4" vorname="Sara" nachname="Däbritz" text="Däbritz übernimmt die Aufgabe und verwandelt gezielt und mit viel Kraft halbhoch rechts ins Eck." />
+                      <Event minute={71} headline="Elfmeter für Deutschland" text="Der zweite Elfmeter für Deutschland. Bühl bringt einen Freistoß ungefährlich hinein, aber Hampton kann den Ball nicht festhalten. Im Nachhinein holt Wolter aus, wird aber im Schuss von Russo am Fuß getroffen." />
+                      <EventSubstitution minute={67} team="Away" player_in_vorname="Sophia" player_in_nachname="Kleinherne" player_out_vorname="Sara" player_out_nachname="Doorsoun" />
+                      <Event minute={64} team="Away" headline="Chance für Deutschland" text="Cerci fängt einen Ball ab und überlässt dann Dallmann. Rauch bekommt den Ball zentral aufgelegt und zwingt Hampton aus ca. 15 Metern zu einem ganz hohen Sprung." />
+                      <EventSubstitution minute={62} team="Away" player_in_vorname="Sara" player_in_nachname="Däbritz" player_out_vorname="Sjoeke" player_out_nachname="Nüsken" />
+                      <EventSubstitution minute={62} team="Away" player_in_vorname="Pia-Sophie" player_in_nachname="Wolter" player_out_vorname="Giulia" player_out_nachname="Gwinn" />
+                      <EventSubstitution minute={61} team="Home" player_in_vorname="Alex" player_in_nachname="Greenwood" player_out_vorname="Leah" player_out_nachname="Williamson" />
+                      <Event minute={59} team="Away" headline="Chance für Deutschland" text="Jule Brand mit einem unglaublichen Solo: Erst läuft sie zwischen Bright und Walsh durch und zieht dann nach innen an Bronze vorbei. Im Strafraum entscheidet sie sich dagegen, die links frei mitgelaufene Cerci mitzunehmen und schießt zu zentral auf Hampton." />
+                      <Comment minute={55} text="Gwinn bekommt rechts mal mehr Platz und bringt den Ball hoch hinein. Dort versuchen sowohl Cerci als auch Dallmann ihr Glück - ohne Erfolg." />
+                      <Comment minute={53} text="Das Spiel verläuft bisher ruhiger und kontrollierter als noch in der ersten Halbzeit." />
+                      <Event minute={50} headline="Abseitstor für Deutschland" text="Dallmann steckt link auf Cerci durch, die im Abseits steht. Brand trifft nach Zuspiel von Dallmann, die den Ball von Cerci zurückbekommt zwar, die Fahne geht aber direkt hoch." />
+                      <Comment minute={48} text="Hemp setzt sich gegen Gwinn durch und legt in den Rückraum auf Stanway, der der Ball verspringt." />
                       <EventSubstitution minute={46} team="Away" player_in_vorname="Selina" player_in_nachname="Cerci" player_out_vorname="Giovanna" player_out_nachname="Hoffmann" />
                       <EventSubstitution minute={46} team="Away" player_in_vorname="Felicitas" player_in_nachname="Rauch" player_out_vorname="Sarai" player_out_nachname="Linder" />
                       <EventSubstitution minute={46} team="Home" player_in_vorname="Jessica" player_in_nachname="Park" player_out_vorname="Ella" player_out_nachname="Toone" />
