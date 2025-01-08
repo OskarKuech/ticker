@@ -14,7 +14,7 @@ import { TeamColorProvider } from '../utils/TeamColorContext';
 import EventCard from "../components_ticker/EventCard";
 import EventSubstitution from "../components_ticker/EventSubstitution";
 
-const TEMPLATE = () => {
+const VfLWolfsburgGalatasarayIstanbul201124 = () => {
     const [activeTab, setActiveTab] = useState("Ticker");
 
     const homeTeam = 'VfL Wolfsburg';
@@ -181,6 +181,6 @@ const TEMPLATE = () => {
       </TeamColorProvider>
     );
 }
-export default TEMPLATE;
+export default VfLWolfsburgGalatasarayIstanbul201124;
 
 export {}

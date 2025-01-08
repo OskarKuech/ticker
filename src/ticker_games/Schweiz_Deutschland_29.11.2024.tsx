@@ -13,7 +13,7 @@ import teamColors from '../utils/teamColors.json';
 import { TeamColorProvider } from '../utils/TeamColorContext';
 import EventSubstitution from "../components_ticker/EventSubstitution";
 
-const TEMPLATE = () => {
+const SchweizDeutschland29112924 = () => {
     const [activeTab, setActiveTab] = useState("Ticker");
 
     const homeTeam = 'Schweiz';
@@ -183,6 +183,6 @@ const TEMPLATE = () => {
       </TeamColorProvider>
     );
 }
-export default TEMPLATE;
+export default SchweizDeutschland29112924;
 
 export {}
