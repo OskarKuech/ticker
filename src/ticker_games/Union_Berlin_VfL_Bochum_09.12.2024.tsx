@@ -98,7 +98,7 @@ const UnionBerlinVflBochum09122024 = () => {
 
               {activeTab === "Ticker" && (
                   <>
-                      <Event headline="" text="Wie schon in der ersten Hälfte machen wir das Spiel, können uns aber nicht belohnen. Trotz guter Chancen unsererseits und einer Bochumer in der Nachspielzeit bleibt die zweite Hälfte Torlos und wir beenden die Heim-Hinrunde mit einem Unentschieden. Nächse Woche geht es dann nochmal nach Gütersloh zum letzten Spiel diees Jahr. Bis dahin wie immer: bleibt gesund, kommt gut nach Hause und niemals vergessen..." />
+                      <Event headline="Fazit nachm Spiel" text="Wie schon in der ersten Hälfte machen wir das Spiel, können uns aber nicht belohnen. Trotz guter Chancen unsererseits und einer Bochumer in der Nachspielzeit bleibt die zweite Hälfte Torlos und wir beenden die Heim-Hinrunde mit einem Unentschieden. Nächse Woche geht es dann nochmal nach Gütersloh zum letzten Spiel diees Jahr. Bis dahin wie immer: bleibt gesund, kommt gut nach Hause und niemals vergessen..." />
 
                       <Comment minute={90} extra_time={3} icon="whistle" text="Das wars dann auch. Im Topspiel müssen wir den Gästen einen Punkt abtreten." />
                       <Event minute={90} extra_time={2} team="Away" headline="Chance für Bochum" text="Heieiei. Da fangen wir uns nach einer Ecke fast noch den Gegentreffer in letzte Minute. Hoppius Kopfball kann Cara aber mit langen Fingern an die Latte lenken und dann wird zum Glück geklärt." />
