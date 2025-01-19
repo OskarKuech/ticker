@@ -28,55 +28,58 @@ const Bayer04LeverkusenUnionBerlin18012025 = () => {
     const awayTeamColor = teamColors[awayTeam];
 
     const homeTeamPlayers = [
-      { nummer: 1, vorname: "", nachname: "" },
-      { nummer: 2, vorname: "", nachname: "" },
-      { nummer: 3, vorname: "", nachname: "" },
-      { nummer: 4, vorname: "", nachname: "" },
-      { nummer: 5, vorname: "", nachname: "" },
-      { nummer: 6, vorname: "", nachname: "" },
-      { nummer: 7, vorname: "", nachname: "" },
-      { nummer: 8, vorname: "", nachname: "" },
-      { nummer: 9, vorname: "", nachname: "" },
-      { nummer: 10, vorname: "", nachname: "" },
-      { nummer: 11, vorname: "", nachname: "" }
+      { nummer: 27, vorname: "", nachname: "Repohl" },
+      { nummer: 2, vorname: "", nachname: "Ostermeier" },
+      { nummer: 5, vorname: "", nachname: "Levels" },
+      { nummer: 6, vorname: "", nachname: "Piljic" },
+      { nummer: 9, vorname: "", nachname: "Kehrer" },
+      { nummer: 11, vorname: "", nachname: "Kögel" },
+      { nummer: 16, vorname: "", nachname: "Zdebel" },
+      { nummer: 18, vorname: "", nachname: "Vilhjamsdottir" },
+      { nummer: 23, vorname: "", nachname: "Boboy" },
+      { nummer: 24, vorname: "", nachname: "Turanyi" },
+      { nummer: 28, vorname: "", nachname: "Menglu" }
     ];
 
     const homeTeamSubstitutionPlayers = [
-      { nummer: 12, vorname: "", nachname: "" },
-      { nummer: 13, vorname: "", nachname: "" },
-      { nummer: 14, vorname: "", nachname: "" },
-      { nummer: 15, vorname: "", nachname: "" },
-      { nummer: 16, vorname: "", nachname: "" },
-      { nummer: 17, vorname: "", nachname: "" },
-      { nummer: 18, vorname: "", nachname: "" },
-      { nummer: 19, vorname: "", nachname: "" },
-      { nummer: 20, vorname: "", nachname: "" }
+      { nummer: 34, vorname: "", nachname: "Moll" },
+      { nummer: 3, vorname: "", nachname: "Friedrich" },
+      { nummer: 4, vorname: "", nachname: "Bragstad" },
+      { nummer: 8, vorname: "", nachname: "Bartz" },
+      { nummer: 12, vorname: "", nachname: "Mickenhagen" },
+      { nummer: 14, vorname: "", nachname: "Lindner" },
+      { nummer: 30, vorname: "", nachname: "Daedelow" },
+      { nummer: 31, vorname: "", nachname: "Schwartze" }
     ];
 
     const awayTeamPlayers = [
-      { nummer: 1, vorname: "", nachname: "" },
-      { nummer: 2, vorname: "", nachname: "" },
-      { nummer: 3, vorname: "", nachname: "" },
-      { nummer: 4, vorname: "", nachname: "" },
-      { nummer: 5, vorname: "", nachname: "" },
-      { nummer: 6, vorname: "", nachname: "" },
-      { nummer: 7, vorname: "", nachname: "" },
-      { nummer: 8, vorname: "", nachname: "" },
-      { nummer: 9, vorname: "", nachname: "" },
-      { nummer: 10, vorname: "", nachname: "" },
-      { nummer: 11, vorname: "", nachname: "" }
+      { nummer: 1, vorname: "Cara", nachname: "Bösl" },
+      { nummer: 2, vorname: "Tomke", nachname: "Schneider" },
+      { nummer: 7, vorname: "Lisa", nachname: "Heiseler" },
+      { nummer: 8, vorname: "Anouk", nachname: "Blaschka" },
+      { nummer: 11, vorname: "Dina", nachname: "Orschmann" },
+      { nummer: 17, vorname: "Judith", nachname: "Steinert" },
+      { nummer: 18, vorname: "Charleen", nachname: "Niesler" },
+      { nummer: 21, vorname: "Anna", nachname: "Weiß" },
+      { nummer: 28, vorname: "Leonie", nachname: "Köster" },
+      { nummer: 42, vorname: "Naika", nachname: "Reissner" },
+      { nummer: 77, vorname: "Athanasia", nachname: "Moraitou" }
     ];
 
     const awayTeamSubstitutionPlayers = [
-      { nummer: 12, vorname: "", nachname: "" },
-      { nummer: 13, vorname: "", nachname: "" },
-      { nummer: 14, vorname: "", nachname: "" },
-      { nummer: 15, vorname: "", nachname: "" },
-      { nummer: 16, vorname: "", nachname: "" },
-      { nummer: 17, vorname: "", nachname: "" },
-      { nummer: 18, vorname: "", nachname: "" },
-      { nummer: 19, vorname: "", nachname: "" },
-      { nummer: 20, vorname: "", nachname: "" }
+      { nummer: 12, vorname: "Melanie", nachname: "Wagner" },
+      { nummer: 30, vorname: "Sarah", nachname: "Hornschuch" },
+      { nummer: 3, vorname: "Latoya", nachname: "Bach" },
+      { nummer: 6, vorname: "Celine", nachname: "Frank" },
+      { nummer: 9, vorname: "Zita", nachname: "Rurack" },
+      { nummer: 15, vorname: "Ida", nachname: "Heikkinen" },
+      { nummer: 16, vorname: "Elli", nachname: "Seiro" },
+      { nummer: 19, vorname: "Sophie", nachname: "Trojahn" },
+      { nummer: 20, vorname: "Nele", nachname: "Bauereisen" },
+      { nummer: 23, vorname: "Pia", nachname: "Metzker" },
+      { nummer: 24, vorname: "Fatma", nachname: "Sakar" },
+      { nummer: 27, vorname: "Korina", nachname: "Janez" },
+      { nummer: 29, vorname: "Antonia", nachname: "Halverkamps" }
     ];
 
     useEffect(() => { 
