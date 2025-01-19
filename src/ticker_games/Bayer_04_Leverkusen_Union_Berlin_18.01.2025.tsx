@@ -115,7 +115,7 @@ const Bayer04LeverkusenUnionBerlin18012025 = () => {
                       <Comment minute={110} text="Elli holt aus einem fast schon zu langen Ball aus der eigenen Hälfte noch eine Ecke raus..." />
                       <Comment minute={108} text="Viel passiert hier gerade nicht mehr. Der Ball wechselt seine Besitzerin immer irgendwo im Mittelfeld." />
                       <Comment minute={105} text="Die Fouls von Leverkusen häufen sich zum Ende des Spiels ganz schön. Wer's nicht anders kann..." />
-                      <EventCard minute={103} team="Home" card_type="yellow" vorname="Ruby" nachname="Grant" text="Erste Karte des Spiels für unnötig starkes Einsteigen im Mittelfeld" />
+                      <EventCard minute={103} team="Home" card_type="Gelb" vorname="Ruby" nachname="Grant" text="Erste Karte des Spiels für unnötig starkes Einsteigen im Mittelfeld" />
                       <EventSubstitution minute={101} team="Away" player_in_vorname="Latoya" player_in_nachname="Bach" player_out_vorname="Antonia" player_out_nachname="Halverkamps" />
                       <Event minute={101} team="Away" headline="Chance für Union" text="Nele und Toni mit gutem Doppelpass. Der Abschluss prallt noch leicht ab und ist dadurch keine Gefahr für Moll im Bayer-Tor." />
                       <Comment minute={97} text="Die Wärme und Laufzeit des Spiels merkt man den Spielerinnen mittlerweile auch an. Die Genauigkeit der Pässe lässt immer weiter nach." />
